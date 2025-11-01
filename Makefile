@@ -1,4 +1,4 @@
-CC = gcc
+CC ?= gcc
 CFLAGS = -O3
 LNFLAGS = -lncurses
 DESTDIR ?= $(HOME)/bin
